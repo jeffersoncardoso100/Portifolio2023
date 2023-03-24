@@ -36,14 +36,14 @@ body {
 
 .cabecalho__menu {
   display: flex;
-  gap: 80px;
+  gap: 30px;
   
 }
 
 .cabecalho__menu__link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.7rem;
-  font-weight:1.7rem;
+  font-size: 1.5rem;
+  font-weight:1.5rem;
   color: var(--cor-terciaria);
   text-decoration: none;
 
@@ -217,9 +217,9 @@ img:hover {
 .apresentacao__p {
   text-decoration: none;
 }
-@media (max-width:800px){
+@media (max-width:900px){
   .cabecalho{
-    padding: 10%;
+    padding: 12%;
   }
   .cabecalho__menu{
     justify-content:center ;
